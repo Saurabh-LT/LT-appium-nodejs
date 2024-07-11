@@ -17,10 +17,9 @@ const desiredCapabilities = {
   app: "proverbialandroid", // Enter the 'app_url' here.
   build: "NodeJS - Android",
   name: "Sample Test NodeJS",
-  deviceName: "Galaxy S20",
+  deviceName: ".*",
   isRealMobile: true,
   platformName: "android",
-  platformVersion: "11",
   video: true,
   visual: true,
   "smartUI.project": "Runnin-CI-Appium"
