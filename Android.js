@@ -15,12 +15,12 @@ const accessKey = process.env.LT_ACCESS_KEY || "accessKey";
  */
 const desiredCapabilities = {
   app: "lt://proverbial-android", // Enter the 'app_url' here.
-  build: "NodeJS - Android",
+  build: "Running CI",
   name: "Sample Test NodeJS",
-  deviceName: "Galaxy S20",
+  deviceName: ".*",
   isRealMobile: true,
   platformName: "android",
-  platformVersion: "11",
+  // platformVersion: "11",
   video: true,
   visual: true,
 };
