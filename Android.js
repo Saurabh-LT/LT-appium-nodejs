@@ -21,8 +21,7 @@ const desiredCapabilities = {
   isRealMobile: true,
   platformName: "android",
   video: true,
-  visual: true,
-  "smartUI.project": "Runnin-CI-Appium"
+  visual: true
 };
 
 const driver = wd.promiseRemote(
