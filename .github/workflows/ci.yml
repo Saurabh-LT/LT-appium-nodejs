@@ -2,9 +2,9 @@ name: Appium Test
 
 on:
   # Add the triggers as required
-  push:
-    branches:
-      - '**'
+  # push:
+  #   branches:
+  #     - '**'
 
   pull_request:
     branches:
